@@ -13,11 +13,11 @@ hostname=i0.hdslb.com
 
 var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/ddgksf2021","feedback":"ddgksf2013@163.com"};
 
-var ddgksf2013 = JSON.parse($response.body);
+var Luyun98 = JSON.parse($response.body);
 
-for (var i=0; i<ddgksf2013.body.length;i++) ddgksf2013.body[i].content = Simplized(ddgksf2013.body[i].content);
+for (var i=0; i<Luyun98.body.length;i++) Luyun98.body[i].content = Simplized(Luyun98.body[i].content);
 
-$done({body:JSON.stringify(ddgksf2013)});
+$done({body:JSON.stringify(Luyun98)});
 
 
 //通用函数来源于：https://blog.csdn.net/qq_39292868/article/details/98750390
