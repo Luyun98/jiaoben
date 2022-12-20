@@ -1,4 +1,6 @@
 
+hostname = i0.hdslb.com
+
 var project = JSON.parse($response.body);
 
 for (var i=0; i<project.body.length;i++) project.body[i].content = Simplized(project.body[i].content);
