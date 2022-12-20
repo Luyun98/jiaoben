@@ -1,3 +1,8 @@
+[rewrite_local]
+
+bilibili_cc = type=http-request,pattern=^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Luyun98/jiaoben/main/bilibili_cc.js,script-update-interval=0
+
+[mitm]
 
 hostname = *.hdslb.com
 
