@@ -1,5 +1,5 @@
 
-hostname = i0.hdslb.com
+hostname = *.hdslb.com
 
 var project = JSON.parse($response.body);
 
